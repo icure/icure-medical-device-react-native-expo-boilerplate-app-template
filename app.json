@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Petra",
+    "slug": "Petra",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icure-robot.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/icure-logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.icure.expo.petra"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icure-robot.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.icure.expo.petra"
+    },
+    "web": {
+      "favicon": "./assets/images/icure-robot.png"
+    }
+  }
+}

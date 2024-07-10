@@ -3568,9 +3568,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@icure/api@npm:^8.0.36":
-  version: 8.0.36
-  resolution: "@icure/api@npm:8.0.36"
+"@icure/api@npm:^8.0.37":
+  version: 8.0.37
+  resolution: "@icure/api@npm:8.0.37"
   dependencies:
     browser-or-node: ^3.0.0
     date-fns: ^2.23.0
@@ -3580,7 +3580,7 @@ __metadata:
     text-encoding: ^0.7.0
     uuid: ^8.3.2
     uuid-encoder: ^1.1.0
-  checksum: 9086635ea3ef08f2b84a6bbd87e5799920f81424833be5047d55c334f149a416a50206b0df28d631f8d85490a86c2b50a0d7a5608c1a4221649576f1c3f02e98
+  checksum: 8a40bec5a3b75fbb2791ec80c4c13304ba0a5a2347f8347393e911d4ccacaab14140a35204690d10fefa993ea8864a7932d43f7c9e4c4244be98c3302d69c51f
   languageName: node
   linkType: hard
 
@@ -3595,11 +3595,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@icure/medical-device-sdk@npm:3.3.6":
-  version: 3.3.6
-  resolution: "@icure/medical-device-sdk@npm:3.3.6"
+"@icure/medical-device-sdk@npm:3.3.7":
+  version: 3.3.7
+  resolution: "@icure/medical-device-sdk@npm:3.3.7"
   dependencies:
-    "@icure/typescript-common": 3.3.6
+    "@icure/typescript-common": 3.3.7
     browser-or-node: ^2.1.1
     date-fns: ^2.30.0
     es6-promise: ^4.2.8
@@ -3607,18 +3607,18 @@ __metadata:
     node-jq: ^2.3.5
     uuid: ^9.0.1
     ws: ^8.16.0
-  checksum: 1659bb6db2b0fb5014e3fafc3d7d56a6874022c7bf77148f4f0b7d9201fa500d2226555d84e1291dae520b6088ae7f112b3837ee9f229daffa279c12e9c68412
+  checksum: dac4a3f2ac8c58c52a1876534210d3b1d3e9712d38a0009fb17dbed1d7b1253bc13aed0507776830d5a3c02c7928f9996d3e1da709297454a5867de0c5339d5b
   languageName: node
   linkType: hard
 
-"@icure/typescript-common@npm:3.3.6":
-  version: 3.3.6
-  resolution: "@icure/typescript-common@npm:3.3.6"
+"@icure/typescript-common@npm:3.3.7":
+  version: 3.3.7
+  resolution: "@icure/typescript-common@npm:3.3.7"
   dependencies:
-    "@icure/api": ^8.0.36
+    "@icure/api": ^8.0.37
     reflect-metadata: ^0.2.2
     uuid: ^9.0.1
-  checksum: 3f555b1f4089762e58ff077e008077d50e5c77c7daa85c608c573f736296562384f3ed0aec73ffc5ebf65a8324305a0e8f02a9b5942864795ba294f6dbcdce7f
+  checksum: ce233d897ac6f572665124ea5962f858aa31589e78e97a6fcc36295ba8d242ccbcc47faf4fedd1870c4ce3ca95b32e221be149247f2bc54609c2e351cdc0da8f
   languageName: node
   linkType: hard
 
@@ -12758,7 +12758,7 @@ __metadata:
     "@babel/core": ^7.20.12
     "@babel/runtime": ^7.20.13
     "@icure/expo-kryptom": 1.0.0
-    "@icure/medical-device-sdk": 3.3.6
+    "@icure/medical-device-sdk": 3.3.7
     "@reduxjs/toolkit": ^1.9.0
     "@types/jest": ^26.0.23
     "@types/node": ^18.11.9

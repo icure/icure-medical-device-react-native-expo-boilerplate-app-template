@@ -1,0 +1,27 @@
+{
+  "name": "@icure/cra-template-icure-medtech-expo",
+  "version": "1.0.0",
+  "description": "The base template to create your iCure React Navite Expo App.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icure/icure-medical-device-react-navite-expo-boilerplate-app-template.git"
+  },
+  "keywords": [
+    "icure",
+    "medtech",
+    "medical-device",
+    "react",
+    "native",
+    "expo"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/icure/icure-medical-device-react-navite-expo-boilerplate-app-template/issues"
+  },
+  "homepage": "https://github.com/icure/icure-medical-device-react-navite-expo-boilerplate-app-template#readme"
+}

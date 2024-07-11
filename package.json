@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/icure/icure-medical-device-react-navite-expo-boilerplate-app-template.git"
+    "url": "git+https://github.com/icure/icure-medical-device-react-native-expo-boilerplate-app-template.git"
   },
   "keywords": [
     "icure",
@@ -21,7 +21,7 @@
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/icure/icure-medical-device-react-navite-expo-boilerplate-app-template/issues"
+    "url": "https://github.com/icure/icure-medical-device-react-native-expo-boilerplate-app-template/issues"
   },
-  "homepage": "https://github.com/icure/icure-medical-device-react-navite-expo-boilerplate-app-template#readme"
+  "homepage": "https://github.com/icure/icure-medical-device-react-native-expo-boilerplate-app-template#readme"
 }

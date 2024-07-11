@@ -7,7 +7,7 @@
 
 Start working on your e-health React Native Expo app with iCure in a few minutes, by using our dedicated React Native Expo template:
 ```
-expo init my-new-app --template @icure/cra-template-icure-medtech-expo
+npx create-expo-app my-new-app --template @icure/cra-template-icure-medtech-expo
 ```
 
 Once your app is created, complete the following values in the file `.env` using `.env.default` as a template:

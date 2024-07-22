@@ -10,8 +10,9 @@ Start working on your e-health React Native Expo app with iCure in a few minutes
 npx create-expo-app my-new-app --template https://github.com/icure/icure-medical-device-react-native-expo-boilerplate-app-template
 ```
 
-Rename the following files in the root directory:
+Rename the following folder and files in the root directory:
 
+- `dot.yarn` -> `.yarn`
 - `dot.buckconfig` -> `.buckconfig`
 - `dot.editorconfig` -> `.editorconfig`
 - `dot.env` -> `.env`
@@ -23,9 +24,9 @@ Rename the following files in the root directory:
 - `dot.yarnrc.yml` -> `.yarnrc.yml`
 
 Once your app is created, complete the following values in the file `.env`:
-- **EXPO_PUBLIC_PARENT_ORGANISATION_ID** 
-- **EXPO_PUBLIC_EXTERNAL_SERVICES_SPEC_ID** 
-- **EXPO_PUBLIC_FRIENDLY_CAPTCHA_SITE_KEY** 
+- **EXPO_PUBLIC_PARENT_ORGANISATION_ID**
+- **EXPO_PUBLIC_EXTERNAL_SERVICES_SPEC_ID**
+- **EXPO_PUBLIC_FRIENDLY_CAPTCHA_SITE_KEY**
 - **EXPO_PUBLIC_EMAIL_AUTHENTICATION_PROCESS_ID** and/or **EXPO_PUBLIC_SMS_AUTHENTICATION_PROCESS_ID**,
 
 Check out our [Quick Start](https://docs.icure.com/sdks/quick-start/) in order to know what are those information and how to get them from our [Cockpit Portal](https://cockpit.icure.cloud/).
@@ -40,6 +41,19 @@ Make sure the following tools are installed on your machine:
 - **Android Studio**
 
 *Note: XCode and Android Studio are needed in order to run your app on iPhone & Android emulators*
+
+## How to start the project ?
+Follow these steps to get your project up and running:
+
+1. Open your terminal or command prompt.
+2. Run the following command:
+
+    ```
+    npx expo
+    ```
+3. A list of platforms will appear. Select the platform you'd like to run the application on (e.g., iOS, Android, or web).
+
+That's it! Your project should now be starting on your chosen platform.
 
 
 ## Which technologies are used ?

@@ -10,19 +10,6 @@ Start working on your e-health React Native Expo app with iCure in a few minutes
 npx create-expo-app my-new-app --template https://github.com/icure/icure-medical-device-react-native-expo-boilerplate-app-template
 ```
 
-Rename the following folder and files in the root directory:
-
-- `dot.yarn` -> `.yarn`
-- `dot.buckconfig` -> `.buckconfig`
-- `dot.editorconfig` -> `.editorconfig`
-- `dot.env` -> `.env`
-- `dot.eslintrc` -> `.eslintrc`
-- `dot.node-version` -> `.node-version`
-- `dot.prettierrc` -> `.prettierrc`
-- `dot.ruby-version` -> `.ruby-version`
-- `dot.watchmanconfig` -> `.watchmanconfig`
-- `dot.yarnrc.yml` -> `.yarnrc.yml`
-
 Once your app is created, complete the following values in the file `.env`:
 - **EXPO_PUBLIC_PARENT_ORGANISATION_ID**
 - **EXPO_PUBLIC_EXTERNAL_SERVICES_SPEC_ID**

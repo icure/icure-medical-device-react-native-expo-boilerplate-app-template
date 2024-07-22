@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
+    "preinstall": "npx renamer --find '/dot.(.+)/' --replace '.$1' './dot*'",
     "android": "expo run:android",
     "ios": "expo run:ios",
     "start": "expo start --dev-client",

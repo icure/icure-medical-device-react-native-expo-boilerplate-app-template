@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "preinstall": "sh -c 'if ls ./dot* 1> /dev/null 2>&1; then npx renamer --find \"/dot.(.+)/\" --replace \".$1\" \"./dot*\"; else echo \"INFO: No matching files to rename.\"; fi'",
+    "preinstall": "npx renamer --find '/dot.(.+)/' --replace '.$1' './*'",
     "android": "expo run:android",
     "ios": "expo run:ios",
     "start": "expo start --dev-client",
